@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawsem -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Team Fathy</title>
+</head>
+<body>
+    <nav class="fixed-nav">
+        <div class="container">
+            <div class="nav-elements">
+                <div class="nav-logo">
+                    <img src="images/logo.png" alt="logo" class="nav-logo__img">
+                </div>
+                <div class="nav-content">
+                    <ul class="nav-list">
+                        <li class="nav-list__element"><a href="#home" class="nav-list__link">home</a></li>
+                        <li class="nav-list__element"><a href="#team" class="nav-list__link">our team</a></li>
+                        <li class="nav-list__element"><a href="#" class="nav-list__link">about us</a></li>
+                        <li class="nav-list__element"><a href="#" class="nav-list__link">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="nav-login">
+                    <button type="button" class="btn btn-outline-primary nav-button">get start</button>
+                </div>
+                <div class="mobile-nav">
+                    <span class="mobile-nav__line"></span>
+                    <span class="mobile-nav__line mobile-line--center"></span>
+                    <span class="mobile-nav__line"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active main-photo">
+                <img src="images/all.jpg" class="d-block w-100 main-photo__img" alt="..." id="home">
+                <div class="main-photo__color"></div>
+            </div>
+            <div class="carousel-item main-photo">
+                <img src="images/men.jpg" class="d-block w-100 main-photo__img" alt="...">
+                <div class="main-photo__color"></div>
+            </div>
+            <div class="carousel-item main-photo">
+                <img src="images/woman.jpg" class="d-block w-100 main-photo__img" alt="...">
+                <div class="main-photo__color"></div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section class="team">
+        <div class="container">
+            <div class="team-header"  id="team">
+                <h2 class="team-header__text">our team</h2>
+                <div>
+                    <span class="team-header__line"></span>
+                    <span class="team-header__line"></span>
+                </div>
+                <p class="team-header__paragraph">The Leading Competitive Team in Egypt & Middle East</p>
+            </div>
+            <div class="team-content">
+                <div class="w-33">
+                    <div class="team-player">
+                        <img src="images/women/hannen.png" alt="haneen-photo" class="team-player__img">
+                        <div class="team-player__content">
+                            <h3 class="team-player__name">haneen ibrahim</h3>
+                            <span class="team-player__line"></span>
+                            <p class="team-player__club">wadi degla</p>
+                            <button type="button" class="btn btn-outline-primary team-player__button">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-33">
+                    <div class="team-player">
+                        <img src="images/men/momen.png" alt="momen-photo" class="team-player__img">
+                        <div class="team-player__content">
+                            <h3 class="team-player__name">mo'men ibrahim</h3>
+                            <span class="team-player__line"></span>
+                            <p class="team-player__club">wadi degla</p>
+                            <button type="button" class="btn btn-outline-primary team-player__button">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-33">
+                    <div class="team-player">
+                        <img src="images/men/elfeky.png" alt="elfeky-photo" class="team-player__img">
+                        <div class="team-player__content">
+                            <h3 class="team-player__name">ahmed elfeky</h3>
+                            <span class="team-player__line"></span>
+                            <p class="team-player__club">wadi degla</p>
+                            <button type="button" class="btn btn-outline-primary team-player__button">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-33">
+                    <div class="team-player">
+                        <img src="images/women/elwazer.png" alt="sama-photo" class="team-player__img">
+                        <div class="team-player__content">
+                            <h3 class="team-player__name">sama usama</h3>
+                            <span class="team-player__line"></span>
+                            <p class="team-player__club">wadi degla</p>
+                            <button type="button" class="btn btn-outline-primary team-player__button">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-33">
+                    <div class="team-player">
+                        <img src="images/women/salma.png" alt="salma-photo" class="team-player__img">
+                        <div class="team-player__content">
+                            <h3 class="team-player__name">salma usama</h3>
+                            <span class="team-player__line"></span>
+                            <p class="team-player__club">wadi degla</p>
+                            <button type="button" class="btn btn-outline-primary team-player__button">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-33">
+                    <div class="team-player">
+                        <img src="images/men/ehab.png" alt="AhmedEhab-photo" class="team-player__img">
+                        <div class="team-player__content">
+                            <h3 class="team-player__name">ahmed ehab</h3>
+                            <span class="team-player__line"></span>
+                            <p class="team-player__club">wadi degla</p>
+                            <button type="button" class="btn btn-outline-primary team-player__button">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-33">
+                    <div class="team-player">
+                        <img src="images/women/mariam.png" alt="mariam-photo" class="team-player__img">
+                        <div class="team-player__content">
+                            <h3 class="team-player__name">mariam amr</h3>
+                            <span class="team-player__line"></span>
+                            <p class="team-player__club">wadi degla</p>
+                            <button type="button" class="btn btn-outline-primary team-player__button">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-33">
+                    <div class="team-player">
+                        <img src="images/women/malak.png" alt="malak-photo" class="team-player__img">
+                        <div class="team-player__content">
+                            <h3 class="team-player__name">malak amr</h3>
+                            <span class="team-player__line"></span>
+                            <p class="team-player__club">wadi degla</p>
+                            <button type="button" class="btn btn-outline-primary team-player__button">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-33">
+                    <div class="team-player">
+                        <img src="images/men/yassin.png" alt="yassin-photo" class="team-player__img">
+                        <div class="team-player__content">
+                            <h3 class="team-player__name">yassin frahat</h3>
+                            <span class="team-player__line"></span>
+                            <p class="team-player__club">elghaba sporting club</p>
+                            <button type="button" class="btn btn-outline-primary team-player__button">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-more">
+                    <button type="button" class="btn btn-outline-primary team-more__button">show more
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

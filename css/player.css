@@ -1,0 +1,197 @@
+.fixed-nav{
+    background-color: white;
+}
+.nav-list__link{
+    color: black;
+}
+.nav-list__link:hover{
+    color: #0d34e1;
+}
+.nav-button{
+    color: black;
+}
+.line{
+    margin: 30px 0;
+    border: 0px;
+    height: 1px;
+    background: #6464648c;
+    display: block;
+}
+
+
+.page-header{
+    background-image: url(../images/players/header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.page-header__color{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+    text-align: center;
+}
+.header-title{
+    padding: 140px 0 60px 0;
+    width: 100%;
+}
+
+.header-title__name{
+    width: 100%;
+    color: #0625ae;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+.header-title__contact{
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.body{
+    margin: 150px 0;
+}
+
+.body-elements{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.team-info__name{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin: 0px 0 2px;
+    text-transform: uppercase;
+    color: #646464;
+}
+.team-info__club{
+    color: #9a9a9a;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+.single-details__text{
+    color: #9a9a9a;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.achivements-head{
+    color: #0d34e1;
+    border-bottom: 1px solid #0d34e1;
+    width: 300px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.achivements-place{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.achivements-place__head{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin: 15px 0 2px 10px;
+    text-transform: capitalize;
+    color: #565656;
+}
+
+.achivements-list{
+    margin-top: 10px;
+    list-style: none;
+    margin-left: 25px;
+}
+
+.achivements-list__element{
+    color: #9a9a9a;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 32px;
+    transition: 0.5s;
+}
+
+.achivements-hover{
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.achivements-hover:hover{
+    color: #0d34e1;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.achivements-hover:hover .achivements-list__element{
+    color: #0d34e1;
+    cursor: pointer;
+}
+
+.achivements-icon{
+    font-size: 14px;
+}
+
+
+
+
+@media (min-width: 1201px) and (max-width: 1366px) {}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .body-elements {
+        display: block;
+    }
+
+    .body-content{
+        width: 100% !important;
+    }
+
+    .body-photo {
+        width: 100% !important;
+    }
+
+    .header-title {
+        padding-top: 90px;
+    }
+
+    .body-content {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .body-elements{
+        display: block;
+    }
+    .header-title{
+        padding-top: 90px;
+    }
+    .body-content {
+        width: 100% !important;
+    }
+    .body-photo{
+        width: 100% !important;
+    }
+    .body-content{
+        margin-top: 30px;
+    }
+    .achivements-place{
+        display: block;
+    }
+}

@@ -1,5 +1,6 @@
 .fixed-nav{
     background-color: white;
+    box-shadow: 0px 5px 20px #0000004e;
 }
 .nav-list__link{
     color: black;
@@ -60,6 +61,29 @@
     justify-content: space-between;
     gap: 40px;
 }
+.body-photo{
+    position: relative;
+    height: 430px;
+    overflow: hidden;
+    display: inline-block;
+}
+.body-photo__img{
+    width: 100%;
+    transition: all linear 0.5s;
+}
+img.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.body-photo:hover img{
+    opacity: 0;
+}
+.body-photo:hover img.hover-img {
+    opacity: 1;
+}
+
 
 .team-info__name{
     font-size: 30px;

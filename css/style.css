@@ -238,6 +238,7 @@ ul,ol,dl{
     color: black;
     border-color: black;
     transition: 0.5s;
+    margin: 0 5px;
 }
 
 /* about */
@@ -440,7 +441,6 @@ footer{
 
 .footer-list{
     list-style: none;
-    margin-top: 15px;
 }
 .footer-list__element{
     padding-top: 10px;
@@ -490,6 +490,11 @@ footer{
 }
 .follow-list:hover .follow-list__circle{
     background-color: #0d6efd;
+}
+
+.player-hidden{
+    width: 100%;
+    display: none;
 }
 
 
@@ -605,3 +610,4 @@ footer{
         display: block;
     }
 }
+
